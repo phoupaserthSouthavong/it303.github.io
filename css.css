@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+}
+
+.software-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.software-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.software-item:hover {
+  transform: translateY(-2px);
+}
+
+.software-item h2 {
+  font-size: 1.4rem;
+  margin: 0 0 10px;
+}
+
+.software-item p {
+  margin: 0 0 15px;
+  color: #555;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.3s;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+  background: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .software-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .download-btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
