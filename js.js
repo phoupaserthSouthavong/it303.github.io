@@ -86,6 +86,11 @@ const softwareData = [
     name: "Visual C++ Runtimes Nov 2024",
     description: "ລວມ Visual C++ Runtimes ທັງໝົດ ສຳລັບ Windows 7, 8, 10, 11 ແລະ Server ທັງໝົດ",
     link: "downloads/Visual-C-Runtimes-All-in-One-Nov-2024.zip"
+  },
+  {
+    name: "Restart Spooler Printer",
+    description: "Restart Spooler Printer",
+    link: "downloads/restart_spooler_printer.bat"
   }
 ];
 
